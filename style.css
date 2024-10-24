@@ -16,7 +16,7 @@
   }
   main{
     position: absolute;
-    max-width: 300px;
+    max-width: 400px;
     padding: 20px;
     border: 1px solid black;
     border-radius: 20px;
@@ -30,6 +30,7 @@
   }
   .img-card > img{
     width: 100%;
+    border-radius: 10px;
     min-width: 300px;
   }
   .p-background{
@@ -56,15 +57,16 @@
     margin: 10px 0px;
   }
   footer > img{
-    width: 40px;
+    width: 30px;
   }
   footer > strong{
     position: absolute;
-    padding: 10px 10px 0px;
+    padding: 9px 10px 0px;
   }
   
 
   .attribution {
+    margin-top: 10px;
     font-size: 11px;
     text-align: center;
   }
